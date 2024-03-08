@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:'Times New Roman', Times, serif;
+  overflow-y: scroll;
+
+  --background-color-light: #cbca96;
+  --background-sec-color-light: #d4d3b1;
+  --sec-color-light: #f4dfd5;
+  --color-light: #09080F;
+
+  --background-color-dark: #19191a;
+  --background-sec-color-dark: #311961;
+  --sec-color-dark: #8f6f65;
+  --color-dark: #FFFFF3;
+  
+  --main-color: #cf6e56;
+
+}
+
+body {
+  margin: 0;
+  height: auto;
+  
+  color: var(--color-light);
+  background-color: var(--background-color-light);
+  
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.btn {
+  display: flex !important;
+}
+
+@media (prefers-color-scheme: light) {
+  #app {
+    background: linear-gradient(to right, var(--background-color-light), var(--background-sec-color-light));
+    color: var(--color-light);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #app {
+    background: linear-gradient(to right, var(--background-color-dark), var(--background-sec-color-dark));
+    color: var(--color-dark);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .th {
+    font-size: .85rem;
+  }
+  .td {
+    font-size: .75rem;
+  }
+}
