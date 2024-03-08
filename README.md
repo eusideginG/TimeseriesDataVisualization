@@ -1,8 +1,12 @@
 # Setup
 
 - Download the code from the repository
-- Load the folder in to your VSCode
+- Unzip the folder
+- Open the folder in to your VSCode
+- In terminal type: `npm install`
 - In terminal type: `npm run dev`
+
+> Note: required NodeJS
 
 ## How to use
 
