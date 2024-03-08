@@ -12,7 +12,7 @@
 
 ### Filter
 
-- Data display: Click on the chart legend to toggle the displayed data (<a name="ChartLegendImg">Legend Image</a>):
+- Data display: Click on the chart legend to toggle the displayed data (<sup>[Legend Image](#ChartLegendImg)</sup>):
   - Click to close
   - Click again to open
 - Date filter (on the slider, below the chart at the left side):
@@ -45,4 +45,4 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ---
 
-<sup>[Legend Image](#ChartLegendImg)</sup> ![Legend image](/public/chartLegend.png "Legends")
+<a name="ChartLegendImg">Legend Image</a> ![Legend image](/public/chartLegend.png "Legends")
