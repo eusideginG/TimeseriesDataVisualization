@@ -1,3 +1,25 @@
+# Setup
+
+- Download the code from the repository
+- Load the folder in to your VSCode
+- In terminal type: `npm run dev`
+
+## How to use
+
+### Filter
+
+- Data display: Click on the chart legend to toggle the displayed data
+  - Click to close
+  - Click again to open
+- Date filter (on the slider, below the chart at the left side):
+  - The left thumb indicates the "Starting" date of your filter
+  - The right thumb indicates the "Ending" date of your filter
+- Toggle table (on the button, below the chart at the right side):
+  - Click to open
+  - Click again to close
+
+> Note: Table data can be filtered by clicking the chart legend
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
