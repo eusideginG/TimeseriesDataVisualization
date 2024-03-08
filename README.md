@@ -12,7 +12,7 @@
 
 ### Filter
 
-- Data display: Click on the chart legend to toggle the displayed data (<sup>[Legend Image](#ChartLegendImg)</sup>):
+- Data display: Click on the chart legend to toggle the displayed data <sup>[Legend Image](#ChartLegendImg)</sup>:
   - Click to close
   - Click again to open
 - Date filter (on the slider, below the chart at the left side):
